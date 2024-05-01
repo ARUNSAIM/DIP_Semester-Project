@@ -9,17 +9,16 @@ This Flask application streams video from a webcam and performs real-time object
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running: pip install -r requirements.txt
 
+
+# Note before Run: 
+1.Run the command from terminal
+2.Before every Run Delete the 'runs' folder from the same directory where these files are located.Continue if you don't have this folder
+3.Delete all the folders ends with '_images' present in same directory to avoid browser caching.
+4.Make sure you have only app.py, iptechniques.py, best15.pt, requirements.txt, Redme.md, templates and logo folders in this directory.
+
 ## Usage
 
 1. Run the Flask application from terminal: python app.py
-## Note: 
-## 1.Run the command from terminal
-## 2.Before every Run Delete the 'runs' folder from the same directory where these files are located. 
-##   Continue if you don't have this folder
-## 3.Delete all the folders ends with '_images' present in same directory to avoid browser caching.
-## 4.Make sure you have only app.py, iptechniques.py, best15.pt, requirements.txt, Redme.md, templates and logo folders ##   in this directory.
-
-
 2. Open your web browser and go to `localhost ip address visible in terminal` to view the video stream and access the image processing functionalities.
 
 ## Features
