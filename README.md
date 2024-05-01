@@ -12,11 +12,11 @@ This Flask application streams video from a webcam and performs real-time object
 
 # Note before Run: 
 1.Download the weights from here(https://drive.google.com/file/d/16zYRZZ6x-llVUJFSU5u8zjvQZzTT_leX/view?usp=sharing) and keep it in the same directory.
-2.You have to run the command from terminal only
-3.Before every Run Delete the 'runs' folder from the same directory where these files are located.Continue if you don't have this folder
-4.Delete all the folders ends with '_images' present in same directory to avoid browser caching.
-5.Make sure you have only app.py, iptechniques.py, best15.pt, requirements.txt, Readme.md, templates and logo folders in this directory.
-6.This trained model can identify only 4 classes(Arun, Ali, Kaushik and Intruder). If any person(other than Arun, Ali, Kaushik) comes before the camera, model identifies them as intruder.
+  2.You have to run the command from terminal only
+  3.Before every Run Delete the 'runs' folder from the same directory where these files are located.Continue if you don't have this folder
+  4.Delete all the folders ends with '_images' present in same directory to avoid browser caching.
+  5.Make sure you have only app.py, iptechniques.py, best15.pt, requirements.txt, Readme.md, templates and logo folders in this directory.
+  6.This trained model can identify only 4 classes(Arun, Ali, Kaushik and Intruder). If any person(other than Arun, Ali, Kaushik) comes before the camera, model identifies them as intruder.
 
 ## Usage
 
