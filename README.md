@@ -1,10 +1,10 @@
-# DIP_Semester Project
+# DIP_Semester Project - Project Group 5
  EDS6397 - Digital Image Processing - Security Surveilance system for intruder detection
 # Flask Application for Video Streaming and Image Processing
 
 This Flask application streams video from a webcam and performs real-time object detection using YOLO model from Ultralytics. It also captures images of intruders at regular intervals and applies various image processing techniques.
 
-## Installation
+## Installation steps
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running: pip install -r requirements.txt
